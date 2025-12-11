@@ -1,3 +1,87 @@
+
+
+// "use client"
+
+// import Image from "next/image"
+
+// export default function IndustriesDetailSection() {
+//   const industries = [
+//     {
+//       icon: "/Syscape/iconlogo02.png",
+//       title: "LOREM IPSUM",
+//       description:
+//         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
+//     },
+//     {
+//       icon: "/Syscape/iconlogo02.png",
+//       title: "LOREM IPSUM",
+//       description:
+//         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
+//     },
+//     {
+//       icon: "/Syscape/iconlogo02.png",
+//       title: "LOREM IPSUM",
+//       description:
+//         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
+//     },
+//   ]
+
+//   return (
+//     <section className="bg-black py-20 px-6 md:px-12 lg:px-24">
+//       <div className="max-w-7xl mx-auto">
+//         {/* Header Section */}
+//         <div className="mb-16">
+//           <h2 className="text-white text-lg md:text-xl font-bold tracking-wide mb-4">LOREM IPSUM</h2>
+//           <div className="w-full h-px bg-white/30"></div>
+//         </div>
+
+//         {/* Main Description */}
+//         <p className="text-white text-base md:text-lg leading-relaxed mb-20 max-w-5xl">
+//           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+//           industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+//           scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+//           into electronic typesetting, remaining essentially unchanged.
+//         </p>
+
+//         {/* Items Listing */}
+//         <div className="space-y-16">
+//           {industries.map((industry, index) => (
+//             <div key={index}>
+//               <div className="flex items-center gap-10">
+//                 {/* Left part: Icon + Title */}
+//                 <div className="flex items-center gap-6 w-[320px]">
+//                   <div className="w-24 h-24 md:w-28 md:h-28 bg-gradient-to-br from-[#1F2A44] to-[#0F1624] rounded-xl flex items-center justify-center">
+//                     <Image
+//                       src={industry.icon}
+//                       alt={industry.title}
+//                       width={80}
+//                       height={80}
+//                       className="w-16 h-16 md:w-20 md:h-20 object-contain"
+//                     />
+//                   </div>
+
+//                   <h3 className="text-white text-xl md:text-2xl font-bold tracking-wide">{industry.title}</h3>
+//                 </div>
+
+//                 {/* Right part: Description */}
+//                 <p className="flex-1 text-gray-300 text-sm md:text-base leading-relaxed max-w-3xl">
+//                   {industry.description}
+//                 </p>
+//               </div>
+
+//               {/* Divider */}
+//               {index < industries.length - 1 && (
+//                 <div className="mt-12 h-px bg-white/20 w-full"></div>
+//               )}
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+//     </section>
+//   )
+// }
+
+
 "use client"
 
 import Image from "next/image"
@@ -5,19 +89,19 @@ import Image from "next/image"
 export default function IndustriesDetailSection() {
   const industries = [
     {
-      icon: "/industry-icon-1.png",
+      icon: "/Syscape/iconlogo02.png",
       title: "LOREM IPSUM",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
     },
     {
-      icon: "/industry-icon-2.png",
+      icon: "/Syscape/iconlogo02.png",
       title: "LOREM IPSUM",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
     },
     {
-      icon: "/industry-icon-3.png",
+      icon: "/Syscape/iconlogo02.png",
       title: "LOREM IPSUM",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
@@ -25,54 +109,51 @@ export default function IndustriesDetailSection() {
   ]
 
   return (
-    <section className="bg-black py-20 px-6 md:px-12 lg:px-24">
+    <section className="bg-black py-16 md:py-20 px-6 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto">
-        {/* Header Section */}
-        <div className="mb-16">
+        {/* Header */}
+        <div className="mb-12 md:mb-16">
           <h2 className="text-white text-lg md:text-xl font-bold tracking-wide mb-4">LOREM IPSUM</h2>
-          <div className="w-full h-px bg-gradient-to-r from-white/50 to-transparent"></div>
+          <div className="w-full h-px bg-white/30"></div>
         </div>
 
-        {/* Description Text */}
-        <p className="text-white text-base md:text-lg leading-relaxed mb-16 max-w-6xl">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-          make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-          typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-          sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-          PageMaker including versions of Lorem Ipsum.
+        {/* Main Description */}
+        <p className="text-white text-base md:text-lg leading-relaxed mb-16 max-w-5xl">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry...
         </p>
 
-        {/* Industries Grid */}
-        <div className="space-y-8">
+        {/* List Section */}
+        <div className="space-y-16">
           {industries.map((industry, index) => (
-            <div key={index}>
-              <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-start md:items-center">
-                {/* Icon/Image */}
-                <div className="flex-shrink-0 w-24 h-24 md:w-32 md:h-32">
-                  <div className="w-full h-full bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center">
+            <div key={index} className="w-full">
+              <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-12">
+
+                {/* Left : Icon + Title */}
+                <div className="flex items-center gap-5 md:gap-6 w-full md:w-[330px]">
+                  <div className="w-20 h-20 md:w-28 md:h-28 bg-gradient-to-br from-[#1F2A44] to-[#0F1624] rounded-xl flex items-center justify-center">
                     <Image
-                      src={industry.icon || "/placeholder.svg"}
+                      src={industry.icon}
                       alt={industry.title}
-                      width={128}
-                      height={128}
-                      className="w-16 h-16 md:w-24 md:h-24 object-contain"
+                      width={80}
+                      height={80}
+                      className="w-12 h-12 md:w-20 md:h-20 object-contain"
                     />
                   </div>
-                </div>
 
-                {/* Content */}
-                <div className="flex-1">
-                  <h3 className="text-white text-xl md:text-2xl font-bold tracking-wide mb-3 md:mb-4">
+                  <h3 className="text-white text-lg md:text-2xl font-bold tracking-wide">
                     {industry.title}
                   </h3>
-                  <p className="text-gray-300 text-sm md:text-base leading-relaxed">{industry.description}</p>
                 </div>
+
+                {/* Right : Description */}
+                <p className="text-gray-300 text-sm md:text-base leading-relaxed w-full md:flex-1 max-w-3xl">
+                  {industry.description}
+                </p>
               </div>
 
               {/* Divider */}
               {index < industries.length - 1 && (
-                <div className="mt-8 h-px bg-gradient-to-r from-white/20 to-transparent"></div>
+                <div className="mt-10 md:mt-12 h-px bg-white/20 w-full"></div>
               )}
             </div>
           ))}

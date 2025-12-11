@@ -100,7 +100,7 @@ export default function HeroSection() {
   }, [])
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20 overflow-hidden bg-gradient-to-b from-[#3d4a62] to-black">
+    <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20 overflow-hidden bg-gradient-to-b from-[#3d4a62] to-black hero-fade">
       {/* Floating dots and particles */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-32 right-1/4 w-1 h-1 rounded-full bg-white opacity-60 animate-pulse" />

@@ -32,9 +32,6 @@ export default function Header() {
             <Link href="/solution" className="text-sm text-gray-300 hover:text-white transition-colors">
               Solutions
             </Link>
-            {/* <Link href="/individualsolution" className="text-sm text-gray-300 hover:text-white transition-colors">
-              indiSolutions
-            </Link> */}
             <Link href="casestudy" className="text-sm text-gray-300 hover:text-white transition-colors">
               Case Studies
             </Link>

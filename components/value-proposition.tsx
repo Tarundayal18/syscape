@@ -68,58 +68,58 @@ export default function ValueProposition() {
         </div>
 
 
-<div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
 
-  {/* Pie Chart Card */}
-  <div className="border border-gray-700 rounded-2xl p-8 sm:p-12 bg-gradient-to-br from-gray-900 to-black flex flex-col items-center justify-center">
-    
-    {/* Pie Chart Image */}
-    <Image
-      src="/pie.png"
-      alt="Pie Chart"
-      width={180}
-      height={180}
-      className="mb-8"
-    />
+          {/* Pie Chart Card */}
+          <div className="border border-gray-700 rounded-2xl p-8 sm:p-12 bg-gradient-to-br from-gray-900 to-black flex flex-col items-center justify-center">
 
-    <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">LOREM IPSUM</p>
-    <h3 className="text-xl sm:text-2xl font-bold text-white text-center mb-4">
-      Contrary to popular belief, Lorem Ipsum
-    </h3>
-    <p className="text-gray-400 text-sm text-center mb-6">
-      is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
-    </p>
+            {/* Pie Chart Image */}
+            <Image
+              src="/pie.png"
+              alt="Pie Chart"
+              width={180}
+              height={180}
+              className="mb-8"
+            />
 
-    <button className="border border-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-900 transition flex items-center gap-2">
-      learn more <span>›</span>
-    </button>
-  </div>
+            <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">LOREM IPSUM</p>
+            <h3 className="text-xl sm:text-2xl font-bold text-white text-center mb-4">
+              Contrary to popular belief, Lorem Ipsum
+            </h3>
+            <p className="text-gray-400 text-sm text-center mb-6">
+              is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
+            </p>
 
-  {/* Bar Graph Card */}
-  <div className="border border-gray-700 rounded-2xl p-8 sm:p-12 bg-gradient-to-br from-gray-900 to-black flex flex-col items-center justify-center">
-    
-    {/* Graph Image */}
-    <Image
-      src="/graph.png"
-      alt="Graph"
-      width={180}
-      height={180}
-      className="mb-8"
-    />
+            <button className="border border-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-900 transition flex items-center gap-2">
+              learn more <span>›</span>
+            </button>
+          </div>
 
-    <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">LOREM IPSUM</p>
-    <h3 className="text-xl sm:text-2xl font-bold text-white text-center mb-4">
-      Contrary to popular belief, Lorem Ipsum
-    </h3>
-    <p className="text-gray-400 text-sm text-center mb-6">
-      is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
-    </p>
+          {/* Bar Graph Card */}
+          <div className="border border-gray-700 rounded-2xl p-8 sm:p-12 bg-gradient-to-br from-gray-900 to-black flex flex-col items-center justify-center">
 
-    <button className="border border-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-900 transition flex items-center gap-2">
-      learn more <span>›</span>
-    </button>
-  </div>
-</div>
+            {/* Graph Image */}
+            <Image
+              src="/graph.png"
+              alt="Graph"
+              width={180}
+              height={180}
+              className="mb-8"
+            />
+
+            <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">LOREM IPSUM</p>
+            <h3 className="text-xl sm:text-2xl font-bold text-white text-center mb-4">
+              Contrary to popular belief, Lorem Ipsum
+            </h3>
+            <p className="text-gray-400 text-sm text-center mb-6">
+              is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
+            </p>
+
+            <button className="border border-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-900 transition flex items-center gap-2">
+              learn more <span>›</span>
+            </button>
+          </div>
+        </div>
 
       </div>
     </section>
