@@ -20,17 +20,23 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8 flex-1 justify-center">
-            <Link href="#" className="text-sm text-gray-300 hover:text-white transition-colors">
-              All Pages
-            </Link>
-            <Link href="#" className="text-sm text-gray-300 hover:text-white transition-colors">
-              Features
-            </Link>
-            <Link href="#" className="text-sm text-gray-300 hover:text-white transition-colors">
-              Pricing
+            <Link href="/" className="text-sm text-gray-300 hover:text-white transition-colors">
+              Home
             </Link>
             <Link href="about" className="text-sm text-gray-300 hover:text-white transition-colors">
               About
+            </Link>
+            <Link href="/industries" className="text-sm text-gray-300 hover:text-white transition-colors">
+              Industries
+            </Link>
+            <Link href="/solution" className="text-sm text-gray-300 hover:text-white transition-colors">
+              Solutions
+            </Link>
+            {/* <Link href="/individualsolution" className="text-sm text-gray-300 hover:text-white transition-colors">
+              indiSolutions
+            </Link> */}
+            <Link href="casestudy" className="text-sm text-gray-300 hover:text-white transition-colors">
+              Case Studies
             </Link>
             <Link href="contact" className="text-sm text-gray-300 hover:text-white transition-colors">
               Contact
@@ -55,16 +61,22 @@ export default function Header() {
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
           <nav className="md:hidden mt-4 flex flex-col gap-4">
-            <Link href="#" className="text-sm text-gray-300 hover:text-white transition-colors">
-              All Pages
+            <Link href="/" className="text-sm text-gray-300 hover:text-white transition-colors">
+              Home
+            </Link>
+            <Link href="about" className="text-sm text-gray-300 hover:text-white transition-colors">
+              About
+            </Link>
+            <Link href="/industries" className="text-sm text-gray-300 hover:text-white transition-colors">
+              Industries
+            </Link>
+            <Link href="/solution" className="text-sm text-gray-300 hover:text-white transition-colors">
+              Solutions
             </Link>
             <Link href="#" className="text-sm text-gray-300 hover:text-white transition-colors">
-              Features
+              Case Studies
             </Link>
-            <Link href="#" className="text-sm text-gray-300 hover:text-white transition-colors">
-              Pricing
-            </Link>
-            <Link href="#" className="text-sm text-gray-300 hover:text-white transition-colors">
+            <Link href="contact" className="text-sm text-gray-300 hover:text-white transition-colors">
               Contact
             </Link>
             {/* <button className="w-full px-4 py-2 bg-[#4a5f8f] hover:bg-[#556a9d] text-white rounded-lg transition-colors text-sm font-medium">

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ValueProposition() {
   return (
-    <section className="min-h-screen bg-black py-20 px-4 sm:px-6 lg:px-8">
+    <section className="min-h-screen bg-black py-60 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-xs sm:text-sm tracking-widest text-gray-400 uppercase mb-4">Value Proposition</p>

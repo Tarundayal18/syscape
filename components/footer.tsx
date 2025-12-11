@@ -135,10 +135,10 @@ export default function Footer() {
     <footer className="w-full relative overflow-hidden bg-black">
       
       {/* ⭐ GRADIENT FROM BOTTOM UPWARD */}
-      <div className="absolute bottom-0 left-0 w-full h-[500px] bg-gradient-to-t from-[#3d4a62]/90 to-transparent backdrop-blur-sm pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-full h-[500px] bg-gradient-to-t from-[#3c679d]/90 to-transparent backdrop-blur-sm pointer-events-none" />
 
       <div className="relative z-10">
-        <div className="w-full px-4 pt-12 md:pt-20 pb-20 md:pb-32">
+        <div className="w-full px-4 pt-12 md:pt-20 pb-10 md:pb-16">
           <div className="max-w-7xl mx-auto">
 
             {/* GRID SECTION */}
@@ -222,7 +222,7 @@ export default function Footer() {
           {/* ⭐ FULL WIDTH LOGO */}
           <div className="w-full overflow-hidden flex justify-center">
             <img
-              src="/logo01.png"
+              src="/logo011.png"
               alt="Datacore"
               className="w-full max-w-none opacity-20 hover:opacity-30 transition-opacity object-cover"
             />
