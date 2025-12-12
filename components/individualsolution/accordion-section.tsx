@@ -25,9 +25,9 @@ export default function AccordionCardsSection() {
 
   const items = [
     {
-      title: "What is Lorem Ipsum?",
+      title: "Intelligent Service Delivery",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and",
+        "]The core ITSM processes, reinvented with AI and automation.",
     },
     // {
     //   title: "What is Lorem Ipsum?",
@@ -37,19 +37,18 @@ export default function AccordionCardsSection() {
   ]
 
   const cardItems = [
-    { title: "What is Lorem Ipsum?" },
-    { title: "What is Lorem Ipsum?" },
-    { title: "What is Lorem Ipsum?" },
+    { title: "Intelligent Incident Management" },
+    { title: "Predictive Change Management" },
+    { title: "Automated Service Fulfillment" },
+        { title: "Advanced Problem Resolution" },
+
   ]
 
   return (
     <section ref={sectionRef} className="w-full bg-black py-16 md:py-24 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
 
-        <div  className="mb-8">
-                <h3 className="text-2xl md:text-3xl font-bold mb-3">What is Lorem Ipsum?</h3>
-                <p className="text-sm text-gray-400 w-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and</p>
-              </div>
+   
         {/* Top line */}
         <div className="w-full h-px bg-gradient-to-r from-transparent via-gray-600 to-transparent mb-12" />
 
@@ -70,7 +69,7 @@ export default function AccordionCardsSection() {
 
           {/* Right side - Bordered cards */}
           <div className="space-y-4">
-                            <p className="text-sm text-gray-400">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and</p>
+                            {/* <p className="text-sm text-gray-400">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and</p> */}
 
             {cardItems.map((item, index) => (
               <div

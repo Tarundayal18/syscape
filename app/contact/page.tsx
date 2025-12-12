@@ -247,7 +247,7 @@ export default function ContactPage() {
       <Header />
 
       {/* Hero Section with Gradient */}
-      <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-8 lg:px-8 pt-16 sm:pt-20 overflow-hidden bg-gradient-to-b from-[#495f8f] via-[#495f8f]/50 to-black">
+      <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-8 lg:px-8 pt-16 sm:pt-20 overflow-hidden bg-gradient-to-b from-[#6ea7ee] via-[#495f8f]/50 to-black">
         {/* Animated background orbs - smaller on mobile */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-16 sm:top-32 left-1/4 w-64 sm:w-80 md:w-96 h-64 sm:h-80 md:h-96 bg-[#495f8f]/20 rounded-full blur-3xl animate-pulse"></div>

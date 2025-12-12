@@ -26,23 +26,23 @@ export default function TimelineSection() {
   const timelineItems = [
     {
       number: "1",
-      title: "What is Lorem Ipsum?",
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      title: "Fragmented Data",
+      description: "Unified CMDB. An object-oriented CMDB and discovery automatically map all assets and complex dependencies.",
     },
     {
       number: "2",
-      title: "What is Lorem Ipsum?",
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      title: "Slow Resolution",
+      description: "AI-Driven Insights. Auto-classification, resolution suggestions, and predictive problem detection drastically reduce Mean Time to Resolution (MTTR).",
     },
     {
       number: "3",
-      title: "What is Lorem Ipsum?",
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      title: "Manual Workflows",
+      description: "Native Orchestration. A powerful engine uses event-driven triggers and API orchestrations to automate complex, multi-step task",
     },
   ]
 
   const introText =
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    "OrchestraFlow is your enterprise-grade ITSM and workflow automation platform built for the digital era. It unifies IT operations, service delivery, and configuration management onto a single intelligent foundation, blending the robustness of classical ITSM with the speed and predictive power of AI."
 
   return (
     <section ref={sectionRef} className="w-full bg-black py-16 md:py-24 px-4 md:px-8">
@@ -63,9 +63,9 @@ export default function TimelineSection() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            <h3 className="text-2xl md:text-3xl font-bold mb-3">What is Lorem Ipsum?</h3>
+            <h3 className="text-2xl md:text-3xl font-bold mb-3">Resolve Core IT Challenges</h3>
             <p className="text-sm text-gray-400">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Solving the biggest ITSM market pain points.
             </p>
           </div>
 

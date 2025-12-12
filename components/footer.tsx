@@ -1,129 +1,4 @@
 
-
-// export default function Footer() {
-//   const footerLinks = {
-//     platform: ["Features", "Testimonials", "Pricing", "Demo"],
-//     company: ["About Us", "Blog", "Blog Details", "Contact"],
-//     resources: ["Privacy Policy", "Terms and Conditions", "Changelog", "Error 404"],
-//   }
-
-//   return (
-//     <footer className="w-full relative overflow-hidden">
-//       <div className="absolute inset-0 bg-gradient-to-b from-black via-slate-900 via-40% to-blue-900/50 pointer-events-none" />
-
-//       <div className="relative z-10">
-//         {/* Main content section */}
-//         <div className="w-full px-4 pt-12 md:pt-20 pb-20 md:pb-32">
-//           <div className="max-w-7xl mx-auto">
-//             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-12 lg:gap-16 mb-20 md:mb-32">
-              
-//               {/* Platform Column */}
-//               <div className="col-span-1">
-//                 <h3 className="text-white font-medium mb-6 md:mb-8 text-sm md:text-base lg:text-lg">Platform</h3>
-//                 <ul className="space-y-3 md:space-y-4">
-//                   {footerLinks.platform.map((link) => (
-//                     <li key={link}>
-//                       <a href="#" className="text-gray-300 hover:text-white transition-colors text-xs md:text-sm">
-//                         {link}
-//                       </a>
-//                     </li>
-//                   ))}
-//                 </ul>
-//               </div>
-
-//               {/* Company Column */}
-//               <div className="col-span-1">
-//                 <h3 className="text-white font-medium mb-6 md:mb-8 text-sm md:text-base lg:text-lg">Company</h3>
-//                 <ul className="space-y-3 md:space-y-4">
-//                   {footerLinks.company.map((link) => (
-//                     <li key={link}>
-//                       <a href="#" className="text-gray-300 hover:text-white transition-colors text-xs md:text-sm">
-//                         {link}
-//                       </a>
-//                     </li>
-//                   ))}
-//                 </ul>
-//               </div>
-
-//               {/* Resources Column */}
-//               <div className="col-span-1 md:col-span-1 lg:col-span-1">
-//                 <h3 className="text-white font-medium mb-6 md:mb-8 text-sm md:text-base lg:text-lg">Resources</h3>
-//                 <ul className="space-y-3 md:space-y-4">
-//                   {footerLinks.resources.map((link) => (
-//                     <li key={link}>
-//                       <a href="#" className="text-gray-300 hover:text-white transition-colors text-xs md:text-sm">
-//                         {link}
-//                       </a>
-//                     </li>
-//                   ))}
-//                 </ul>
-//               </div>
-
-//               {/* Social + Description */}
-//               <div className="col-span-2 md:col-span-1 lg:col-span-1 flex flex-col gap-4 md:gap-6">
-                
-//                 {/* Social Icons */}
-//                 <div className="flex gap-4 md:gap-5">
-//                   <a href="#" className="text-white hover:text-gray-300 transition-colors" aria-label="Facebook">
-//                     <svg className="w-5 h-5 md:w-6 md:h-6" fill="currentColor" viewBox="0 0 24 24">
-//                       <path d="M24 12.073c..."></path>
-//                     </svg>
-//                   </a>
-
-//                   <a href="#" className="text-white hover:text-gray-300 transition-colors" aria-label="Twitter">
-//                     <svg className="w-5 h-5 md:w-6 md:h-6" fill="currentColor" viewBox="0 0 24 24">
-//                       <path d="M23.953 4.57..."></path>
-//                     </svg>
-//                   </a>
-
-//                   <a href="#" className="text-white hover:text-gray-300 transition-colors" aria-label="Instagram">
-//                     <svg className="w-5 h-5 md:w-6 md:h-6" fill="currentColor" viewBox="0 0 24 24">
-//                       <path d="M12 0C5.373..."></path>
-//                     </svg>
-//                   </a>
-
-//                   <a href="#" className="text-white hover:text-gray-300 transition-colors" aria-label="LinkedIn">
-//                     <svg className="w-5 h-5 md:w-6 md:h-6" fill="currentColor" viewBox="0 0 24 24">
-//                       <path d="M19 0h-14c..."></path>
-//                     </svg>
-//                   </a>
-//                 </div>
-
-//                 {/* Description */}
-//                 <p className="text-gray-300 text-xs md:text-sm leading-relaxed max-w-xs">
-//                   Start uncovering insights, predicting trends, and collaborating smarter — all in one powerful platform.
-//                 </p>
-//               </div>
-//             </div>
-//           </div>
-
-//           {/* ⭐ FULL WIDTH BACKGROUND LOGO */}
-//           <div className="w-full overflow-hidden flex justify-center">
-//             <img
-//               src="/logo01.png"
-//               alt="Datacore"
-//               className="w-full max-w-none opacity-20 hover:opacity-30 transition-opacity object-cover"
-//             />
-//           </div>
-
-//           {/* Divider */}
-//           <div className="w-full flex justify-center mb-8 md:mb-12">
-//             <div className="w-full max-w-6xl border-t border-blue-500/30"></div>
-//           </div>
-
-//           {/* Footer Bottom */}
-//           <div className="max-w-6xl mx-auto px-4">
-//             <div className="flex flex-col md:flex-row justify-between items-center text-gray-400 text-xs md:text-sm gap-4">
-//               <p className="font-medium">SINCE. 2025</p>
-//               <p>©Datacore. All rights reserved.</p>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </footer>
-//   )
-// }
-
 export default function Footer() {
   const footerLinks = {
     platform: ["Features", "Testimonials", "Pricing", "Demo"],
@@ -133,9 +8,9 @@ export default function Footer() {
 
   return (
     <footer className="w-full relative overflow-hidden bg-black">
-      
+
       {/* ⭐ GRADIENT FROM BOTTOM UPWARD */}
-      <div className="absolute bottom-0 left-0 w-full h-[500px] bg-gradient-to-t from-[#3c679d]/90 to-transparent backdrop-blur-sm pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-full h-[500px] bg-gradient-to-t from-[#6ea7ee]/90 to-transparent backdrop-blur-sm pointer-events-none" />
 
       <div className="relative z-10">
         <div className="w-full px-4 pt-12 md:pt-20 pb-10 md:pb-16">
@@ -143,7 +18,7 @@ export default function Footer() {
 
             {/* GRID SECTION */}
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 md:gap-12 lg:gap-16 mb-20 md:mb-32">
-              
+
               {/* Platform */}
               <div className="col-span-1">
                 <h3 className="text-white font-medium mb-6 md:mb-8 text-sm md:text-base lg:text-lg">Platform</h3>
@@ -188,7 +63,7 @@ export default function Footer() {
 
               {/* Social + Desc */}
               <div className="col-span-2 md:col-span-1 flex flex-col gap-4 md:gap-6">
-                
+
                 <div className="flex gap-4 md:gap-5">
                   <a href="#" className="text-white hover:text-gray-300 transition-colors">
                     <svg className="w-5 h-5 md:w-6 md:h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -220,24 +95,28 @@ export default function Footer() {
           </div>
 
           {/* ⭐ FULL WIDTH LOGO */}
-          <div className="w-full overflow-hidden flex justify-center">
+          <div className="w-full overflow-hidden flex justify-center relative">
             <img
               src="/logo011.png"
               alt="Datacore"
               className="w-full max-w-none opacity-20 hover:opacity-30 transition-opacity object-cover"
+              style={{
+                maskImage: 'linear-gradient(to bottom, black 20%, transparent 100%)',
+                WebkitMaskImage: 'linear-gradient(to bottom, black 20%, transparent 100%)'
+              }}
             />
           </div>
 
           {/* Divider */}
-          <div className="w-full flex justify-center mb-8 md:mb-12">
-            <div className="w-full max-w-6xl border-t border-blue-500/30"></div>
-          </div>
+          <div className="w-full flex justify-center mb-6 md:mb-12 -translate-y-3 md:-translate-y-10 px-4">
+  <div className="w-full max-w-6xl border-t border-[#9aa6bb]/60"></div>
+</div>
 
           {/* Footer bottom */}
           <div className="max-w-6xl mx-auto px-4">
-            <div className="flex flex-col md:flex-row justify-between items-center text-gray-400 text-xs md:text-sm gap-4">
-              <p className="font-medium">SINCE. 2025</p>
-              <p>©Datacore. All rights reserved.</p>
+            <div className="flex flex-col md:flex-row justify-end items-end text-white-400 text-xs md:text-sm gap-4">
+              {/* <p className="font-medium">SINCE. 2025</p> */}
+              <p className="text-end">All Rights Reserved - SYSCAPE IT SOLUTIONS PRIVATE LIMITED</p>
             </div>
           </div>
 

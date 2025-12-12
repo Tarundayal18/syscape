@@ -116,32 +116,39 @@ export default function Features() {
           {/* LEFT SIDE */}
           <div className="flex flex-col justify-center h-full">
             <p className="text-sm md:text-base text-gray-400 mb-6 tracking-wide">
-              THE PRODUCTS/PLATFORMS
+              Syscape Identity
             </p>
 
             <h2 className="text-4xl md:text-5xl font-bold text-white leading-[1.1] mb-6">
-              What is <br /> Lorem Ipsum?
+              The Enterprise Mission 
+ <br /> Control Platform
             </h2>
 
             <p className="text-gray-300 mb-10 max-w-md">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+Your unified source for holistic visibility, security, and operational control across all domains.
             </p>
 
-            <div className="space-y-8">
-              {[1, 2, 3].map((item) => (
-                <div
-                  key={item}
-                  className="flex gap-4 pb-8 border-b border-gray-800 last:border-b-0 last:pb-0"
-                >
-                  {/* Bullet with small gradient orb (image jaisa) */}
-                  <div className="w-8 h-8 rounded-full bg-gradient-to-br from-gray-600 to-black shadow-inner"></div>
+           <div className="space-y-8">
+  {[
+    "Platform Consolidation: Replaces disparate tools by consolidating monitoring, security, asset management, and service workflows into a single system.",
+    "Cross-Domain Correlation: Provides faster detection and response by correlating events across IT, network, security, and physical infrastructure.",
+    "Future-Proof Scalability: Supports hybrid infrastructure (cloud, on-prem, multi-site), multivendor hardware, and legacy/modern systems.",
+  ].map((text, index) => (
+    <div
+      key={index}
+      className="flex gap-4 pb-8 border-b border-gray-800 last:border-b-0 last:pb-0"
+    >
+      {/* Bullet with small gradient orb */}
+      <div className="w-8 h-8 rounded-full bg-gradient-to-br from-gray-600 to-black shadow-inner"></div>
 
-                  <p className="text-gray-300 leading-relaxed max-w-md">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  </p>
-                </div>
-              ))}
-            </div>
+      <p className="text-gray-300 leading-relaxed max-w-md">
+        {text}
+      </p>
+    </div>
+  ))}
+</div>
+
+            
           </div>
 
           {/* RIGHT SIDE CHART */}

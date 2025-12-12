@@ -72,14 +72,14 @@ export default function ContentSection() {
         {/* Section Header */}
         <div className="mb-16 md:mb-24">
           <h2 className="text-lg md:text-xl tracking-wider uppercase text-white mb-4 font-light">
-            Lorem Ipsum
+            Industries we Serve
           </h2>
           <div className="w-full h-px bg-gradient-to-r from-gray-600 to-transparent" />
         </div>
         
         {/* Main heading */}
         <h3 className="text-3xl md:text-5xl font-bold text-white mb-16 md:mb-20 leading-tight text-center md:text-left">
-          Lorem Ipsum is simply dummy text of the printing
+          How We Work with Industries
         </h3>
         
         {/* Content Grid */}
@@ -98,18 +98,10 @@ export default function ContentSection() {
           {/* RIGHT COLUMN - Text */}
           <div className="flex flex-col justify-start gap-6 md:gap-8">
             <p className="text-gray-300 text-base md:text-lg leading-relaxed">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
-              of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
-              like Aldus PageMaker including versions of Lorem Ipsum.
+              Syscape’s strength lies in transcending the traditional silos that plague modern enterprises. In high-stakes sectors like Banking and Finance, our integrated platform ensures maximum uptime and compliance. NetScope Vision and InfraCore Pulse guarantee the performance and physical security of data centers, while OrchestraFlow streamlines IT service delivery for rapid incident response, protecting against reputational and financial risk.
             </p>
             <p className="text-gray-300 text-base md:text-lg leading-relaxed">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
+              For infrastructure-heavy sectors like Telecommunications and Manufacturing, we bridge the divide between IT and operational environments. ThreatGuard OT provides critical security and visibility into industrial control systems and network assets, preventing disruptions that can lead to physical damage or utility outages. By unifying monitoring, security, and service management, Syscape enables predictive maintenance and AI-assisted automation, ensuring continuous service delivery and reduced operational overhead across complex, hybrid ecosystems.
             </p>
           </div>
         </div>

@@ -105,7 +105,7 @@ export default function CaseHeroSection() {
   }, [])
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20 sm:py-24 overflow-hidden hero-fade">
+    <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20 sm:py-24 overflow-hidden bg-gradient-to-b from-[#6ea7ee] hero-fade">
       {/* Full Background Image */}
       <div className="absolute inset-0 z-0">
         <img

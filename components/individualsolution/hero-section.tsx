@@ -95,7 +95,7 @@ export default function IndiSolutionHeroSection() {
   }, [])
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20 sm:py-24 overflow-hidden hero-fade">
+    <section className="relative min-h-screen flex items-center bg-gradient-to-b from-[#6ea7ee] justify-center px-4 sm:px-6 lg:px-8 py-20 sm:py-24 overflow-hidden hero-fade">
       {/* Full Background Image */}
       <div className="absolute inset-0 z-0">
         <img
@@ -138,13 +138,13 @@ export default function IndiSolutionHeroSection() {
           }}
         >
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-white leading-tight">
-            WHAT IS
+           OrchestraFlow
           </h1>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 sm:mb-8 text-white leading-tight">
+          {/* <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 sm:mb-8 text-white leading-tight">
             LOREM IPSUM?
-          </h1>
+          </h1> */}
           <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed px-4">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+AI-driven backbone for asset tracking, incident, and change management.
           </p>
         </div>
       </div>

@@ -100,7 +100,7 @@ export default function HeroSection() {
   }, [])
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20 overflow-hidden bg-gradient-to-b from-[#3d4a62] to-black hero-fade">
+    <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20 overflow-hidden bg-gradient-to-b from-[#6ea7ee] to-black hero-fade">
       {/* Floating dots and particles */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-32 right-1/4 w-1 h-1 rounded-full bg-white opacity-60 animate-pulse" />
@@ -146,14 +146,13 @@ export default function HeroSection() {
           }}
         >
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-balance text-white">
-            WHAT IS
+            Resilience and Intelligence
           </h1>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-balance text-white">
-            LOREM IPSUM?
+             for Every Critical Sector
           </h1>
           <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto text-balance">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          </p>
+From the core of finance to the edge of industrial operations, Syscape delivers the unified visibility and control required for mission-critical IT, OT, and physical infrastructure.          </p>
         </div>
       </div>
 

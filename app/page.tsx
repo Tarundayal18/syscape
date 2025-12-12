@@ -1,8 +1,6 @@
 
 
 
-
-
 // "use client"
 
 // import Header from "@/components/header"
@@ -17,10 +15,11 @@
 // import Contact from "@/components/contact"
 // import VideoSection from "@/components/videosection"
 // import { useEffect, useRef, useState } from "react"
+// import MainCaseStudies from "@/components/maincasestudy"
 
 // export default function Home() {
 //   const dashboardRef = useRef<HTMLDivElement>(null)
-//   const [scale, setScale] = useState(0.5)
+//   const [scale, setScale] = useState(0.7)
 
 //   useEffect(() => {
 //     const handleScroll = () => {
@@ -33,12 +32,11 @@
 //       const triggerStart = viewportHeight * 0.8
 //       const triggerEnd = viewportHeight * -1
 
-//       let newScale = 0.5
-
+//       let newScale = 0.7
 //       if (dashboardRect.top <= triggerStart) {
 //         // Calculate progress from dashboard appearing to fully in view
 //         const progress = (triggerStart - dashboardRect.top) / (triggerStart - triggerEnd)
-//         newScale = Math.min(1, 0.5 + Math.max(0, progress) * 0.5)
+//         newScale = Math.min(1.43, 0.7 + Math.max(0, progress) * 0.73)
 //       }
 
 //       setScale(newScale)
@@ -56,20 +54,19 @@
 //       </section>
 //       <div ref={dashboardRef}>
 //         <Dashboard scale={scale} />
+//       </div>
 //         <ValueProposition />
 //       <Products />
 //       <IndustriesServed />
 //       <VideoSection />
 //       <Features />
+//       <MainCaseStudies />
 //       <Statistics />
 //       <Contact />
 //       <Footer />
-//       </div>
 //     </main>
 //   )
 // }
-
-
 
 
 "use client"
@@ -86,6 +83,7 @@ import Features from "@/components/features"
 import Contact from "@/components/contact"
 import VideoSection from "@/components/videosection"
 import { useEffect, useRef, useState } from "react"
+import MainCaseStudies from "@/components/maincasestudy"
 
 export default function Home() {
   const dashboardRef = useRef<HTMLDivElement>(null)
@@ -98,13 +96,11 @@ export default function Home() {
       const dashboardRect = dashboardRef.current.getBoundingClientRect()
       const viewportHeight = window.innerHeight
 
-      // Dashboard shows at 80vh (20% visible), zoom starts from scroll position 0
       const triggerStart = viewportHeight * 0.8
       const triggerEnd = viewportHeight * -1
 
       let newScale = 0.7
       if (dashboardRect.top <= triggerStart) {
-        // Calculate progress from dashboard appearing to fully in view
         const progress = (triggerStart - dashboardRect.top) / (triggerStart - triggerEnd)
         newScale = Math.min(1.43, 0.7 + Math.max(0, progress) * 0.73)
       }
@@ -118,18 +114,22 @@ export default function Home() {
 
   return (
     <main>
-      <section className="h-[80vh] bg-gradient-to-b from-[#3d4a62] via-[#1a1f2e] to-[#000000]">
+      {/* UPDATED GRADIENT WITH #304866 */}
+      <section className="h-[80vh] bg-gradient-to-b from-[#6ea7ee] via-[#22304a] to-black">
         <Header />
         <Hero />
       </section>
+
       <div ref={dashboardRef}>
         <Dashboard scale={scale} />
       </div>
-        <ValueProposition />
+
+      <ValueProposition />
       <Products />
       <IndustriesServed />
       <VideoSection />
       <Features />
+      <MainCaseStudies />
       <Statistics />
       <Contact />
       <Footer />

@@ -9,10 +9,10 @@ interface ShowcaseCard {
 }
 
 const cards: ShowcaseCard[] = [
-  { id: 1, label: "LOREM IPSUM" },
-  { id: 2, label: "LOREM IPSUM" },
-  { id: 3, label: "LOREM IPSUM" },
-  { id: 4, label: "LOREM IPSUM" },
+  { id: 1, label: "OrchestraFlow" },
+  { id: 2, label: "NetScope Vision" },
+  { id: 3, label: "InfraCore Pulse" },
+  { id: 4, label: "ThreatGuard OT" },
 ]
 
 export default function ShowcaseCardsSection() {
@@ -50,7 +50,7 @@ export default function ShowcaseCardsSection() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-16 md:mb-20 text-center">
-          <h2 className="text-base md:text-lg font-medium text-white/80 tracking-wide">LOREM IPSUM</h2>
+          <h2 className="text-base md:text-lg font-medium text-white/80 tracking-wide">Our Platforms</h2>
           <div className="w-24 h-px bg-white/30 mx-auto mt-6 md:mt-8"></div>
         </div>
 

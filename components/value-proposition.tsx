@@ -5,19 +5,18 @@ export default function ValueProposition() {
     <section className="min-h-screen bg-black py-60 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-xs sm:text-sm tracking-widest text-gray-400 uppercase mb-4">Value Proposition</p>
+          <p className="text-xs sm:text-sm tracking-widest text-gray-400 uppercase mb-4">Value Proposition stays</p>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 text-balance">
-            What is Lorem Ipsum?
+            360 Degree Operational Excellence
           </h2>
           <p className="text-base sm:text-lg text-gray-300 max-w-2xl mx-auto text-balance">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Solve complexity and reduce downtime with a single, unified, intelligent platform.
           </p>
         </div>
 
         <div className="w-full bg-gradient-to-br from-gray-900 to-black border border-gray-700 rounded-3xl p-10 mb-5">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
 
-            {/* LEFT SIDE */}
             <div>
               <p className="text-xs text-gray-500 uppercase tracking-wider mb-4">LOREM</p>
 

@@ -26,19 +26,19 @@ export default function FAQSection() {
 
   const items = [
     {
-      title: "What is Lorem Ipsum?",
+      title: "REST-First API Framework",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+        "Enables seamless, low-friction integration with all monitoring, security, and enterprise systems.",
     },
     {
-      title: "What is Lorem Ipsum?",
+      title: "Horizontal Scalability",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+        "Modular architecture and distributed design ensure high availability for the largest enterprise environments.",
     },
     {
-      title: "What is Lorem Ipsum?",
+      title: "Built-in Security & Compliance",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+        "Full audit logs, encryption, and compliance with ISO 27001, SOC2, and GDPR standards.",
     },
   ]
 
@@ -55,10 +55,10 @@ export default function FAQSection() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            <p className="text-sm text-gray-400 mb-2">Lorem Ipsum</p>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">What is Lorem Ipsum?</h2>
+            <p className="text-sm text-gray-400 mb-2">Technology Behind SysCape</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">Enterprise-Ready Architecture</h2>
             <p className="text-base text-gray-300">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+Secure, scalable, and API-driven for seamless integration.
             </p>
           </div>
 
