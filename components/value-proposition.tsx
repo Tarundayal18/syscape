@@ -18,15 +18,14 @@ export default function ValueProposition() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
 
             <div>
-              <p className="text-xs text-gray-500 uppercase tracking-wider mb-4">LOREM</p>
+              {/* <p className="text-xs text-gray-500 uppercase tracking-wider mb-4">LOREM</p> */}
 
               <h3 className="text-3xl font-bold text-white mb-4">
-                Lorem Ipsum is simply dummy text of the printing
+                Holistic System Visibility
               </h3>
 
               <p className="text-gray-400 text-base mb-8 max-w-md">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Gain complete oversight across IT, infra, network, OT, and security layers.
               </p>
 
               <button className="border border-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-900 transition flex items-center gap-2">
@@ -81,17 +80,17 @@ export default function ValueProposition() {
               className="mb-8"
             />
 
-            <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">LOREM IPSUM</p>
+            {/* <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">LOREM IPSUM</p> */}
             <h3 className="text-xl sm:text-2xl font-bold text-white text-center mb-4">
-              Contrary to popular belief, Lorem Ipsum
+              Predictive Automation & AI
             </h3>
             <p className="text-gray-400 text-sm text-center mb-6">
-              is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
+Use AI-assisted insights for faster root-cause analysis and automated incident remediation. 
             </p>
 
-            <button className="border border-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-900 transition flex items-center gap-2">
+            {/* <button className="border border-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-900 transition flex items-center gap-2">
               learn more <span>›</span>
-            </button>
+            </button> */}
           </div>
 
           {/* Bar Graph Card */}
@@ -106,17 +105,15 @@ export default function ValueProposition() {
               className="mb-8"
             />
 
-            <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">LOREM IPSUM</p>
+            {/* <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">Seamless Workflow Integration</p> */}
             <h3 className="text-xl sm:text-2xl font-bold text-white text-center mb-4">
-              Contrary to popular belief, Lorem Ipsum
-            </h3>
+Seamless Workflow Integration            </h3>
             <p className="text-gray-400 text-sm text-center mb-6">
-              is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
-            </p>
+Consolidate monitoring, security, and service management into unified, efficient workflows.            </p>
 
-            <button className="border border-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-900 transition flex items-center gap-2">
+            {/* <button className="border border-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-900 transition flex items-center gap-2">
               learn more <span>›</span>
-            </button>
+            </button> */}
           </div>
         </div>
 
