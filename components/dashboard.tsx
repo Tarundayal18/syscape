@@ -18,9 +18,8 @@ export default function Dashboard({ scale }: DashboardProps) {
 
           {/* Inner border glow with zoom effect */}
           <div
-            className="relative bg-gradient-to-b from-[#2a3548]/50 to-[#1a1f2e]/50 
-             backdrop-blur-md border border-gray-700/50 rounded-2xl 
-             overflow-hidden p-4 sm:p-6 transition-none"
+            className="relative 
+             overflow-hidden p-1 sm:p-2 transition-none"
             style={{
               transform: `scale(${scale})`,
               transformOrigin: "center top",
@@ -30,11 +29,11 @@ export default function Dashboard({ scale }: DashboardProps) {
             }}
           >
             <Image
-              src="/admin.jpg"
+              src="/adimin1.webp"
               alt="Syscape Dashboard Control Panel"
               width={1200}
               height={900}
-              className="w-full h-full rounded-lg object-cover"
+              className="w-full h-full rounded-lg object-contain"
               priority
             />
           </div>
