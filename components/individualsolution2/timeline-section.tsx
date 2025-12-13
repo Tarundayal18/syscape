@@ -45,7 +45,7 @@ export default function TimelineSection() {
     "NetScope Vision is the enterprise-grade monitoring and observability platform engineered for the modern hybrid world. It delivers unified visibility across IT, cloud, and OT, while integrating advanced AI/ML capabilities to reduce noise, accelerate incident diagnosis, and automate remediation. Achieve higher reliability and operational excellence."
 
   return (
-    <section ref={sectionRef} className="w-full bg-[#212121] py-16 md:py-24 px-4 md:px-8">
+    <section ref={sectionRef} className="w-full bg-[#212c3b] py-16 md:py-24 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Intro text */}
         <div

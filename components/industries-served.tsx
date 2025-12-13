@@ -4,7 +4,7 @@
 
 // export default function IndustriesServed() {
 //   return (
-//     <section className="bg-[#212121] py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+//     <section className="bg-[#212c3b] py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
 //       <style jsx>{`
 //         @keyframes scrollLeft {
 //           0% { transform: translateX(0); }
@@ -202,7 +202,7 @@
 
 export default function IndustriesServed() {
   return (
-    <section className="bg-[#212121] py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <section className="bg-[#212c3b] py-1 px-4 sm:px-6 lg:px-8 overflow-hidden">
       <style jsx>{`
         @keyframes scrollLeft {
           0% { transform: translateX(0); }
@@ -223,8 +223,8 @@ export default function IndustriesServed() {
         <div>
           {/* Single row - scrolling left */}
           <div className="relative overflow-hidden">
-            <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-[#212121] to-transparent z-10 pointer-events-none" />
-            <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-[#212121] to-transparent z-10 pointer-events-none" />
+            <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-[#212c3b] to-transparent z-10 pointer-events-none" />
+            <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-[#212c3b] to-transparent z-10 pointer-events-none" />
 
             <div className="flex gap-24 scroll-left w-max">
               {[0, 1].map((set) => (

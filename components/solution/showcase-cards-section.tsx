@@ -174,7 +174,7 @@
 //   const currentTitle = selectedCard === 1 ? "OrchestraFlow" : "NetScope Vision"
 
 //   return (
-//     <section ref={containerRef} className="w-full bg-[#212121]">
+//     <section ref={containerRef} className="w-full bg-[#212c3b]">
 //       {/* Showcase Cards Section */}
 //       <div className="py-16 md:py-24 px-4 md:px-8">
 //         <div className="max-w-7xl mx-auto">
@@ -495,7 +495,7 @@ export default function UnifiedShowcaseSection() {
   const currentTitle = selectedCard === 1 ? "OrchestraFlow" : "NetScope Vision"
 
   return (
-    <section ref={containerRef} className="w-full bg-[#212121]">
+    <section ref={containerRef} className="w-full bg-[#212c3b]">
       {/* Showcase Cards Section */}
       <div className="py-16 md:py-24 px-4 md:px-8">
         <div className="max-w-7xl mx-auto">

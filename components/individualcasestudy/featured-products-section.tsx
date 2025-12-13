@@ -70,7 +70,7 @@ export default function FeaturedProductsSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="w-full bg-gradient-to-br from-gray-900 py-16 md:py-24 lg:py-32 px-4 md:px-8 lg:px-12">
+<section className="min-h-screen bg-[#212c3b] py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <div className="mx-auto max-w-6xl">
         {/* Top divider */}
         <div className="mb-12 md:mb-20 h-px bg-gradient-to-r from-transparent via-gray-600/40 to-transparent" />

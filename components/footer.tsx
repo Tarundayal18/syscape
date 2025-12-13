@@ -7,7 +7,7 @@ export default function Footer() {
   }
 
   return (
-    <footer className="w-full relative overflow-hidden bg-[#212121]">
+    <footer className="w-full relative overflow-hidden bg-[#212c3b]">
 
       {/* ⭐ GRADIENT FROM BOTTOM UPWARD */}
       <div className="absolute bottom-0 left-0 w-full h-[500px] bg-gradient-to-t from-[#6ea7ee]/90 to-transparent backdrop-blur-sm pointer-events-none" />
@@ -95,11 +95,20 @@ export default function Footer() {
           </div>
 
           {/* ⭐ FULL WIDTH LOGO */}
-          <div className="w-full overflow-hidden flex justify-center relative">
+         <div className="w-full overflow-hidden flex justify-center relative">
   <img
     src="/logo011.png"
     alt="Datacore"
-    className="w-full max-w-none opacity-90 hover:opacity-30 transition-opacity object-cover"
+    className="
+      w-full 
+      max-w-6xl 
+      h-auto
+      object-contain
+      opacity-90 
+      hover:opacity-30 
+      transition-opacity
+      px-4 sm:px-0
+    "
     style={{
       maskImage: 'linear-gradient(to top, transparent 20%, black 100%)',
       WebkitMaskImage: 'linear-gradient(to top, transparent 20%, black 100%)'
@@ -108,15 +117,16 @@ export default function Footer() {
 </div>
 
 
+
           {/* Divider */}
           <div className="w-full flex justify-center mb-6 md:mb-12 -translate-y-3 md:-translate-y-10 px-4">
-  <div className="w-full max-w-6xl border-t border-[#9aa6bb]/60"></div>
-</div>
+            <div className="w-full max-w-6xl border-t border-[#9aa6bb]/60"></div>
+          </div>
 
           {/* Footer bottom */}
           <div className="max-w-6xl mx-auto px-4">
-           {/* <p className="font-medium">SINCE. 2025</p> */}
-<p className="
+            {/* <p className="font-medium">SINCE. 2025</p> */}
+            <p className="
   text-center 
   md:text-end 
   text-xs 
@@ -124,8 +134,8 @@ export default function Footer() {
   md:text-base 
   leading-relaxed
 ">
-  All Rights Reserved – SYSCAPE IT SOLUTIONS PRIVATE LIMITED
-</p>
+              All Rights Reserved – SYSCAPE IT SOLUTIONS PRIVATE LIMITED
+            </p>
 
           </div>
 

@@ -49,7 +49,7 @@ export default function Statistics() {
   ]
 
   return (
-    <section className="w-full bg-[#212121] py-20 px-4 md:py-32">
+    <section className="w-full bg-[#212c3b] py-20 px-4 md:py-32">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <p className="text-sm md:text-base text-gray-400 mb-6 tracking-wide">THE PRODUCTS/PLATFORMS</p>

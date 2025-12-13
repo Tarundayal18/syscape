@@ -202,6 +202,7 @@ export default function Home() {
       <section className="h-[50vh] md:h-[80vh] bg-gradient-to-b from-[#6ea7ee] via-[#22304a] to-black">
         <Header />
         <Hero />
+        
       </section>
       <div ref={dashboardRef}>
         <Dashboard scale={scale} />

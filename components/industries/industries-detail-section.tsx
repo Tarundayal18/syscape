@@ -39,7 +39,7 @@
 //   ]
 
 //   return (
-//     <section className="bg-[#212121] py-16 md:py-20 px-6 md:px-12 lg:px-24">
+//     <section className="bg-[#212c3b] py-16 md:py-20 px-6 md:px-12 lg:px-24">
 //       <div className="max-w-7xl mx-auto">
 //         {/* Header */}
 //         <div className="mb-12 md:mb-16">
@@ -128,7 +128,7 @@ export default function IndustriesDetailSection() {
   ]
 
   return (
-    <section className="bg-[#212121] py-16 md:py-20 px-6 md:px-12 lg:px-24">
+    <section className="bg-[#212c3b] py-16 md:py-20 px-6 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-12 md:mb-16">

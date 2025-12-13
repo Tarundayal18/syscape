@@ -43,7 +43,7 @@ export default function FAQSection() {
   ]
 
   return (
-    <section ref={sectionRef} className="w-full bg-[#212121] py-16 md:py-24 px-4 md:px-8">
+    <section ref={sectionRef} className="w-full bg-[#212c3b] py-16 md:py-24 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Top line */}
         <div className="w-full h-px bg-gradient-to-r from-transparent via-gray-600 to-transparent mb-12" />

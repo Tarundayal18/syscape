@@ -51,7 +51,7 @@
 //       </section>
 
 //       {/* Mission Section */}
-//       <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-[#212121]">
+//       <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-[#212c3b]">
 //         <div className="max-w-4xl mx-auto">
 //           <div
 //             className="text-center mb-16"
@@ -107,7 +107,7 @@
 //       </section>
 
 //       {/* Team Section */}
-//       <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-[#212121] border-t border-gray-800">
+//       <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-[#212c3b] border-t border-gray-800">
 //         <div className="max-w-6xl mx-auto">
 //           <div
 //             className="text-center mb-16"
@@ -152,7 +152,7 @@
 //       </section>
 
 //       {/* Impact Section */}
-//       <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-[#212121] border-t border-gray-800">
+//       <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-[#212c3b] border-t border-gray-800">
 //         <div className="max-w-6xl mx-auto">
 //           <div
 //             className="text-center mb-16"
@@ -305,13 +305,13 @@ export default function AboutPage() {
         </div>
       </div>
 
-              <div className="pointer-events-none absolute bottom-0 left-0 w-full h-10 sm:h-10 bg-gradient-to-t from-[#212121] via-[#212121]/80 to-transparent z-20" />
+              <div className="pointer-events-none absolute bottom-0 left-0 w-full h-10 sm:h-10 bg-gradient-to-t from-[#212c3b] via-[#212c3b]/80 to-transparent z-20" />
 
     </section>
 
 
       {/* Mission Section */}
-      <section id="mission" data-section className="relative py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 bg-[#212121]">
+      <section id="mission" data-section className="relative py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 bg-[#212c3b]">
         <div className="max-w-4xl mx-auto">
           <div
             className={`text-center mb-12 sm:mb-16 transition-all duration-700 ${
@@ -376,7 +376,7 @@ export default function AboutPage() {
       <section
         id="team"
         data-section
-        className="relative py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 bg-[#212121] border-t border-gray-800"
+        className="relative py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 bg-[#212c3b] border-t border-gray-800"
       >
         <div className="max-w-6xl mx-auto">
           <div
@@ -417,7 +417,7 @@ export default function AboutPage() {
       <section
         id="impact"
         data-section
-        className="relative py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 bg-[#212121] border-t border-gray-800"
+        className="relative py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 bg-[#212c3b] border-t border-gray-800"
       >
         <div className="max-w-6xl mx-auto">
           <div

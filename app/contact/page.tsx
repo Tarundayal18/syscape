@@ -96,7 +96,7 @@
 //       </section>
 
 //       {/* Form Section */}
-//       <section className="relative py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 lg:px-8 bg-[#212121]">
+//       <section className="relative py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 lg:px-8 bg-[#212c3b]">
 //         <div className="max-w-6xl mx-auto w-full">
 //           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
 //             {/* Left Column */}
@@ -344,12 +344,12 @@ export default function ContactPage() {
           </div>
         </div>
 
-                <div className="pointer-events-none absolute bottom-0 left-0 w-full h-10 sm:h-10 bg-gradient-to-t from-[#212121] via-[#212121]/80 to-transparent z-20" />
+                <div className="pointer-events-none absolute bottom-0 left-0 w-full h-10 sm:h-10 bg-gradient-to-t from-[#212c3b] via-[#212c3b]/80 to-transparent z-20" />
 
       </section>
 
       {/* Form Section */}
-      <section className="relative py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-[#212121] overflow-x-hidden">
+      <section className="relative py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-[#212c3b] overflow-x-hidden">
         <div className="max-w-6xl mx-auto w-full">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center w-full">
             {/* Left Column */}

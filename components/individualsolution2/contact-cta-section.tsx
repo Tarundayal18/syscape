@@ -136,7 +136,7 @@ export default function ContactCTASection() {
 
   return (
     <>
-      <section ref={sectionRef} className="w-full bg-[#212121] py-16 md:py-24 px-4 md:px-8">
+      <section ref={sectionRef} className="w-full bg-[#212c3b] py-16 md:py-24 px-4 md:px-8">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
             Ready to move beyond conventional ITSM?

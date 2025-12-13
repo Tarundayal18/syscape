@@ -45,7 +45,7 @@ export default function TimelineSection() {
     "OrchestraFlow is your enterprise-grade ITSM and workflow automation platform built for the digital era. It unifies IT operations, service delivery, and configuration management onto a single intelligent foundation, blending the robustness of classical ITSM with the speed and predictive power of AI."
 
   return (
-    <section ref={sectionRef} className="w-full bg-[#212121] py-16 md:py-24 px-4 md:px-8">
+    <section ref={sectionRef} className="w-full bg-[#212c3b] py-16 md:py-24 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Intro text */}
         <div

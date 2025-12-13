@@ -149,7 +149,7 @@ AI-driven backbone for asset tracking, incident, and change management.
         </div>
       </div>
 
-              <div className="pointer-events-none absolute bottom-0 left-0 w-full h-10 sm:h-10 bg-gradient-to-t from-[#212121] via-[#212121]/80 to-transparent z-20" />
+              <div className="pointer-events-none absolute bottom-0 left-0 w-full h-10 sm:h-10 bg-gradient-to-t from-[#212c3b] via-[#212c3b]/80 to-transparent z-20" />
 
     </section>
   )

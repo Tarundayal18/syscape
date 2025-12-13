@@ -36,7 +36,7 @@ export default function MainCaseStudies() {
   ]
 
   return (
-    <section className="bg-[#212121] py-24 px-6">
+    <section className="bg-[#212c3b] py-24 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-bold text-white mb-6">Case Study.</h2>
