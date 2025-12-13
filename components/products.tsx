@@ -193,16 +193,16 @@ export default function Products() {
               <div className="absolute inset-0 border border-[#b7b7b7] sm:border-2 rounded-full overflow-hidden shadow-[0_0_10px_rgba(183,183,183,0.3)]">
                 {/* Patch Image */}
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="relative w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28">
+                  {/* <div className="relative w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28">
                     <Image src="/products/patch.png" alt="Patch" fill className="object-cover rounded-full" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
               {/* Logo Image in center with reduced glow */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="relative w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 lg:w-20 lg:h-20">
-                  <Image src="/logo011.png" alt="Main Logo" fill className="rounded-lg object-contain" />
+                  <Image src="/products/logo.png" alt="Main Logo" fill className="rounded-lg object-contain" />
                 </div>
               </div>
             </div>

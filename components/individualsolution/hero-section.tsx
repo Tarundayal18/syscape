@@ -99,7 +99,7 @@ export default function IndiSolutionHeroSection() {
       {/* Full Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/individualsolution/main.png"
+          src="/individualsolution/main1.webp"
           alt="Background"
           className="absolute inset-0 w-full h-full object-cover object-center"
         />
@@ -148,6 +148,9 @@ AI-driven backbone for asset tracking, incident, and change management.
           </p>
         </div>
       </div>
+
+              <div className="pointer-events-none absolute bottom-0 left-0 w-full h-10 sm:h-10 bg-gradient-to-t from-[#212121] via-[#212121]/80 to-transparent z-20" />
+
     </section>
   )
 }

@@ -88,7 +88,7 @@ export default function ContentSection() {
           {/* LEFT COLUMN - Image */}
           <div className="relative w-full h-full min-h-[400px]">
             <Image
-              src="/Syscape/iconlogo02.png"
+              src="/industries/big.webp"
               alt="Logo"
               fill
               className="object-contain"

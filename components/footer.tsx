@@ -7,7 +7,7 @@ export default function Footer() {
   }
 
   return (
-    <footer className="w-full relative overflow-hidden bg-black">
+    <footer className="w-full relative overflow-hidden bg-[#212121]">
 
       {/* ⭐ GRADIENT FROM BOTTOM UPWARD */}
       <div className="absolute bottom-0 left-0 w-full h-[500px] bg-gradient-to-t from-[#6ea7ee]/90 to-transparent backdrop-blur-sm pointer-events-none" />
@@ -115,10 +115,18 @@ export default function Footer() {
 
           {/* Footer bottom */}
           <div className="max-w-6xl mx-auto px-4">
-            <div className="flex flex-col md:flex-row justify-end items-end text-white-400 text-xs md:text-sm gap-4">
-              {/* <p className="font-medium">SINCE. 2025</p> */}
-              <p className="text-end">All Rights Reserved - SYSCAPE IT SOLUTIONS PRIVATE LIMITED</p>
-            </div>
+           {/* <p className="font-medium">SINCE. 2025</p> */}
+<p className="
+  text-center 
+  md:text-end 
+  text-xs 
+  sm:text-sm 
+  md:text-base 
+  leading-relaxed
+">
+  All Rights Reserved – SYSCAPE IT SOLUTIONS PRIVATE LIMITED
+</p>
+
           </div>
 
         </div>

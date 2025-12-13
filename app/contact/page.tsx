@@ -264,6 +264,22 @@ export default function ContactPage() {
       {/* Hero Section with Gradient */}
       <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20 overflow-x-hidden bg-gradient-to-b from-[#6ea7ee] via-[#495f8f]/50 to-black">
         {/* Animated background orbs - smaller on mobile */}
+           {/* {[...Array(15)].map((_, i) => (
+            <div
+              key={i}
+              className="absolute rounded-full bg-white/5 backdrop-blur-sm animate-float"
+              style={{
+                left: `${Math.random() * 100}%`,
+                top: `${Math.random() * 100}%`,
+                width: `${Math.random() * 80 + 20}px`,
+                height: `${Math.random() * 80 + 20}px`,
+                animationDelay: `${Math.random() * 5}s`,
+                animationDuration: `${Math.random() * 10 + 10}s`,
+              }}
+            />
+          ))} */}
+
+
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute top-16 sm:top-32 left-1/4 w-64 sm:w-80 md:w-96 h-64 sm:h-80 md:h-96 bg-[#495f8f]/20 rounded-full blur-3xl animate-pulse"></div>
           <div className="absolute bottom-16 sm:bottom-32 right-1/4 w-64 sm:w-80 md:w-96 h-64 sm:h-80 md:h-96 bg-[#495f8f]/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
@@ -327,6 +343,9 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
+
+                <div className="pointer-events-none absolute bottom-0 left-0 w-full h-10 sm:h-10 bg-gradient-to-t from-[#212121] via-[#212121]/80 to-transparent z-20" />
+
       </section>
 
       {/* Form Section */}

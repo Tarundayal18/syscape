@@ -14,103 +14,55 @@ export default function ValueProposition() {
           </p>
         </div>
 
-        <div className="w-full bg-gradient-to-br from-gray-900 to-black border border-gray-700 rounded-3xl p-10 mb-5">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+       <div className="w-full bg-gradient-to-br from-gray-900 to-black border border-gray-700 rounded-3xl p-10 mb-5">
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
 
-            <div>
-              {/* <p className="text-xs text-gray-500 uppercase tracking-wider mb-4">LOREM</p> */}
+    <div>
+      <h3 className="text-3xl font-bold text-white mb-4">
+        Holistic System Visibility
+      </h3>
 
-              <h3 className="text-3xl font-bold text-white mb-4">
-                Holistic System Visibility
-              </h3>
+      <p className="text-gray-400 text-base mb-8 max-w-md">
+        Gain complete oversight across IT, infra, network, OT, and security layers.
+      </p>
+    </div>
 
-              <p className="text-gray-400 text-base mb-8 max-w-md">
-                Gain complete oversight across IT, infra, network, OT, and security layers.
-              </p>
-            </div>
+    {/* RIGHT SIDE - Image */}
+    <div className="border border-gray-700 rounded-2xl overflow-hidden bg-black/40">
+      <img 
+        src="/home/Holistic .webp" 
+        alt="System Activity Dashboard"
+        className="w-full h-full object-cover"
+      />
+    </div>
 
-            {/* RIGHT SIDE */}
-            <div className="border border-gray-700 rounded-2xl p-6 bg-black/40">
-              <h3 className="text-2xl font-bold text-white mb-6">Recent Activity Logs</h3>
-
-              <div className="space-y-6">
-
-                {/* Header Row */}
-                <div className="grid grid-cols-3 gap-4 pb-4 border-b border-gray-700">
-                  <p className="text-xs text-gray-500 uppercase">Timestamp</p>
-                  <p className="text-xs text-gray-500 uppercase">Status</p>
-                  <p className="text-xs text-gray-500 uppercase">Source</p>
-                </div>
-
-                {/* Data Rows */}
-                {[1, 2, 3, 4].map((i) => (
-                  <div
-                    key={i}
-                    className="grid grid-cols-3 gap-4 text-sm py-2 border-b border-gray-800 last:border-none"
-                  >
-                    <p className="text-gray-400">2025-05-03 10:24</p>
-                    <p className="text-gray-400">Lorem</p>
-                    <p className="text-gray-400">Lorem</p>
-                  </div>
-                ))}
-
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-
+  </div>
+</div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
 
           {/* Pie Chart Card */}
-          <div className="border border-gray-700 rounded-2xl p-8 sm:p-12 bg-gradient-to-br from-gray-900 to-black flex flex-col items-center justify-center">
+         {/* Pie Chart Card */}
+<div className="border border-gray-700 rounded-2xl overflow-hidden bg-gradient-to-br from-gray-900 to-black">
+  <Image
+    src="/home/Predictive.webp"
+    alt="Predictive Automation & AI"
+    width={400}
+    height={400}
+    className="w-full h-full object-cover"
+  />
+</div>
 
-            {/* Pie Chart Image */}
-            <Image
-              src="/pie.png"
-              alt="Pie Chart"
-              width={180}
-              height={180}
-              className="mb-8"
-            />
-
-            {/* <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">LOREM IPSUM</p> */}
-            <h3 className="text-xl sm:text-2xl font-bold text-white text-center mb-4">
-              Predictive Automation & AI
-            </h3>
-            <p className="text-gray-400 text-sm text-center mb-6">
-Use AI-assisted insights for faster root-cause analysis and automated incident remediation. 
-            </p>
-
-            {/* <button className="border border-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-900 transition flex items-center gap-2">
-              learn more <span>›</span>
-            </button> */}
-          </div>
-
-          {/* Bar Graph Card */}
-          <div className="border border-gray-700 rounded-2xl p-8 sm:p-12 bg-gradient-to-br from-gray-900 to-black flex flex-col items-center justify-center">
-
-            {/* Graph Image */}
-            <Image
-              src="/graph.png"
-              alt="Graph"
-              width={180}
-              height={180}
-              className="mb-8"
-            />
-
-            {/* <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">Seamless Workflow Integration</p> */}
-            <h3 className="text-xl sm:text-2xl font-bold text-white text-center mb-4">
-Seamless Workflow Integration            </h3>
-            <p className="text-gray-400 text-sm text-center mb-6">
-Consolidate monitoring, security, and service management into unified, efficient workflows.            </p>
-
-            {/* <button className="border border-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-900 transition flex items-center gap-2">
-              learn more <span>›</span>
-            </button> */}
-          </div>
+{/* Bar Graph Card */}
+<div className="border border-gray-700 rounded-2xl overflow-hidden bg-gradient-to-br from-gray-900 to-black">
+  <Image
+    src="/home/Seamless.webp"
+    alt="Seamless Workflow Integration"
+    width={400}
+    height={400}
+    className="w-full h-full object-cover"
+  />
+</div>
         </div>
 
       </div>

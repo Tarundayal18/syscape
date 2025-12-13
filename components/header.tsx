@@ -109,8 +109,8 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex-shrink-0 translate-y-2">
             <Image
-              src="/logo011.png"
-              width={120}
+              src="/hero/logo011.png"
+              width={190}
               height={30}
               alt="Syscape Logo"
               className="h-8 w-auto sm:h-12"

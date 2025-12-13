@@ -96,31 +96,31 @@ import Image from "next/image"
 export default function IndustriesDetailSection() {
   const industries = [
     {
-      icon: "/Syscape/iconlogo02.png",
+      icon: "/industries/Icon 1.svg",
       title: "Telecommunications",
       description:
         "We enable Telcos to maintain peak network quality and rapidly onboard new services. By correlating network performance (NetScope Vision) with physical infra health (InfraCore Pulse) and automated service workflows (OrchestraFlow), Syscape guarantees continuous service uptime and accelerates 5G monetization strategies.",
     },
     {
-      icon: "/Syscape/iconlogo02.png",
+      icon: "/industries/Icon 2.svg",
       title: "Manufacturing & Industrial",
       description:
         "Securing the production floor is paramount. ThreatGuard OT gives deep, non-intrusive visibility into ICS/SCADA systems, preventing lateral attacks. We integrate these security events directly into OrchestraFlow for immediate, auditable incident response, ensuring uninterrupted physical processes and operational safety.",
     },
     {
-      icon: "/Syscape/iconlogo02.png",
+      icon: "/industries/Icon 3.svg",
       title: "Finance & Banking",
       description:
         "Compliance and zero downtime are non-negotiable. Our platform unifies data center power/cooling management (InfraCore Pulse) with enterprise-wide security posture (ThreatGuard OT), while OrchestraFlow's robust change management simplifies complex audits and maintains regulatory integrity across all service delivery.",
     },
     {
-      icon: "/Syscape/iconlogo02.png",
+      icon: "/industries/Icon 4.svg",
       title: "Energy & Utilities",
       description:
         "Managing geographically distributed and critical infrastructure demands holistic control. We monitor remote power grids and substations (InfraCore Pulse) and secure the underlying operational technology (ThreatGuard OT), providing early-warning anomaly detection to prevent catastrophic failures and ensure public safety.",
     },
     {
-      icon: "/Syscape/iconlogo02.png",
+      icon: "/industries/Icon 5.svg",
       title: "Data Center & Colocation Providers",
       description:
         "Maximizing capacity and guaranteeing SLAs drive profitability. InfraCore Pulse provides predictive planning and real-time power/thermal monitoring, while OrchestraFlow handles client-facing service requests and asset lifecycle tracking, delivering audit-ready efficiency and risk reduction.",

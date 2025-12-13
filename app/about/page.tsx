@@ -227,39 +227,50 @@ export default function AboutPage() {
       <Header />
 
       {/* Hero Section with Animated Bubbles */}
-      <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20 overflow-hidden bg-gradient-to-b from-[#6ea7ee] to-black">
-        <div className="absolute inset-0 overflow-hidden">
-          {/* Animated Bubbles */}
-          {[...Array(15)].map((_, i) => (
-            <div
-              key={i}
-              className="absolute rounded-full bg-white/5 backdrop-blur-sm animate-float"
-              style={{
-                left: `${Math.random() * 100}%`,
-                top: `${Math.random() * 100}%`,
-                width: `${Math.random() * 80 + 20}px`,
-                height: `${Math.random() * 80 + 20}px`,
-                animationDelay: `${Math.random() * 5}s`,
-                animationDuration: `${Math.random() * 10 + 10}s`,
-              }}
-            />
-          ))}
 
-          {/* Gradient Orbs */}
-          <div className="absolute top-20 left-1/4 w-64 h-64 sm:w-96 sm:h-96 bg-[#495f8f]/20 rounded-full blur-3xl animate-pulse-slow"></div>
-          <div
-            className="absolute bottom-32 right-1/4 w-64 h-64 sm:w-96 sm:h-96 bg-[#495f8f]/20 rounded-full blur-3xl animate-pulse-slow"
-            style={{ animationDelay: "2s" }}
-          ></div>
-          <div
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 sm:w-72 sm:h-72 bg-blue-500/10 rounded-full blur-3xl animate-pulse-slow"
-            style={{ animationDelay: "4s" }}
-          ></div>
-        </div>
+  <section className="relative min-h-screen flex items-center bg-gradient-to-b from-[#6ea7ee] justify-center px-4 sm:px-6 lg:px-8 py-20 sm:py-24 overflow-hidden hero-fade">
+      {/* Full Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="/about/Hero Banner.webp"
+          alt="Background"
+          className="absolute inset-0 w-full h-full object-cover object-center"
+        />
+        {/* Dark gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#2d3e54]/80 via-[#1e2a3a]/70 to-[#0a0e15]/90"></div>
+      </div>
 
-        <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <div className="mb-8">
-            <h2 className="text-base sm:text-lg md:text-xl text-gray-300 font-medium mb-4 animate-fade-in">
+      {/* Floating particles - Hidden on mobile for better performance */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none z-10 hidden sm:block">
+        <div className="absolute top-32 right-1/4 w-1 h-1 rounded-full bg-white opacity-60 animate-pulse" />
+        <div className="absolute top-40 right-1/3 w-1 h-1 rounded-full bg-cyan-300 opacity-40 animate-pulse" style={{ animationDelay: '0.15s' }} />
+        <div className="absolute top-1/3 right-20 w-1.5 h-1.5 rounded-full bg-cyan-400 opacity-50 animate-pulse" style={{ animationDelay: '0.3s' }} />
+        <div className="absolute top-1/2 right-1/4 w-1 h-1 rounded-full bg-blue-300 opacity-30 animate-pulse" style={{ animationDelay: '0.5s' }} />
+        <div className="absolute bottom-1/3 right-1/3 w-2 h-2 rounded-full bg-white opacity-40 animate-pulse" style={{ animationDelay: '0.7s' }} />
+        <div className="absolute top-1/4 left-1/3 w-1 h-1 rounded-full bg-cyan-300 opacity-30 animate-pulse" style={{ animationDelay: '1s' }} />
+        
+        {/* Left side particles */}
+        <div className="absolute top-1/4 left-1/4 w-1 h-1 rounded-full bg-white opacity-50 animate-pulse" style={{ animationDelay: '0.2s' }} />
+        <div className="absolute top-1/2 left-1/5 w-1.5 h-1.5 rounded-full bg-cyan-400 opacity-40 animate-pulse" style={{ animationDelay: '0.6s' }} />
+        <div className="absolute bottom-1/4 left-1/3 w-1 h-1 rounded-full bg-blue-300 opacity-50 animate-pulse" style={{ animationDelay: '0.8s' }} />
+      </div>
+
+      {/* Animated blur circles */}
+      <div className="absolute inset-0 overflow-hidden z-10">
+        <div className="absolute top-20 sm:top-32 left-1/4 w-48 h-48 sm:w-96 sm:h-96 bg-[#495f8f]/10 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-20 sm:bottom-32 right-1/4 w-48 h-48 sm:w-96 sm:h-96 bg-[#495f8f]/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+      </div>
+
+      {/* Center - Text content */}
+      <div className="relative z-10 w-full max-w-4xl mx-auto text-center px-4">
+        <div
+          className="mb-6 sm:mb-8"
+          style={{
+            opacity: Math.max(0, Math.min(1, 1 - scrollY / 300)),
+            transform: `translateY(${scrollY * 0.3}px)`,
+          }}
+        >
+       <h2 className="text-base sm:text-lg md:text-xl text-gray-300 font-medium mb-4 animate-fade-in">
               ABOUT OUR COMPANY
             </h2>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 animate-fade-in-up">
@@ -278,9 +289,13 @@ export default function AboutPage() {
               We deliver holistic observability and operational control across the world's most complex hybrid and
               industrial ecosystems.
             </p>
-          </div>
         </div>
-      </section>
+      </div>
+
+              <div className="pointer-events-none absolute bottom-0 left-0 w-full h-10 sm:h-10 bg-gradient-to-t from-[#212121] via-[#212121]/80 to-transparent z-20" />
+
+    </section>
+
 
       {/* Mission Section */}
       <section id="mission" data-section className="relative py-16 sm:py-20 lg:py-24 px-4 sm:px-6 lg:px-8 bg-[#212121]">
@@ -303,14 +318,17 @@ export default function AboutPage() {
               {
                 title: "Unified Observability",
                 desc: "Breaking down silos to provide complete, cross-domain visibility across IT, physical infrastructure, network, and OT environments from a single command center.",
+                icon: "/about/ICons-01.svg"
               },
               {
                 title: "Intelligent Automation",
                 desc: "Embedding predictive analytics, machine learning, and automation into every layer to enable proactive detection, faster root-cause analysis, and streamlined workflows.",
+                icon: "/about/ICons-02.svg"
               },
               {
                 title: "Operational Resilience",
                 desc: "Delivering enterprise-grade fault tolerance, scalability, and security posture across legacy and modern, multivendor, hybrid deployments.",
+                icon: "/about/ICons-03.svg"
               },
             ].map((value, idx) => (
               <div
@@ -324,8 +342,13 @@ export default function AboutPage() {
               >
                 <div className="flex flex-col flex-grow">
                   <div className="w-12 h-12 bg-[#495f8f]/20 rounded-lg mb-4 flex items-center justify-center">
-                    <div className="w-6 h-6 bg-[#495f8f] rounded-md"></div>
-                  </div>
+  <img
+    src={value.icon}
+    alt="icon"
+    className="w-6 h-6 object-contain"
+  />
+</div>
+
 
                   <h3 className="text-lg sm:text-xl font-bold text-white mb-3">{value.title}</h3>
                   <p className="text-sm sm:text-base text-gray-400 flex-grow leading-relaxed">{value.desc}</p>
