@@ -2,7 +2,7 @@ export default function VideoSection() {
   const logos = ["Guardian Care", "Landscaping", "Company", "Guardian Care", "Landscaping", "Company"]
 
   return (
-    <section className="min-h-screen bg-black py-20 px-4 sm:px-6 lg:px-8">
+    <section className="min-h-screen bg-[#212121] py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-xs sm:text-sm tracking-widest text-gray-400 uppercase mb-8">Industries Served</p>

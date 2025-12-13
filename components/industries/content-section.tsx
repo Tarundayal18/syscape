@@ -67,7 +67,7 @@ import Image from "next/image"
 
 export default function ContentSection() {
   return (
-    <section className="relative w-full bg-black py-20 md:py-32 px-4 md:px-8">
+    <section className="relative w-full bg-[#212121] py-20 md:py-32 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="mb-16 md:mb-24">

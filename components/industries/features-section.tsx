@@ -21,7 +21,7 @@ export default function FeaturesSection() {
   ]
 
   return (
-    <section className="relative w-full bg-black py-20 md:py-32 px-4 md:px-8">
+    <section className="relative w-full bg-[#212121] py-20 md:py-32 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="mb-12 md:mb-16">

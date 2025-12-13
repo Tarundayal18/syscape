@@ -96,16 +96,17 @@ export default function Footer() {
 
           {/* ⭐ FULL WIDTH LOGO */}
           <div className="w-full overflow-hidden flex justify-center relative">
-            <img
-              src="/logo011.png"
-              alt="Datacore"
-              className="w-full max-w-none opacity-20 hover:opacity-30 transition-opacity object-cover"
-              style={{
-                maskImage: 'linear-gradient(to bottom, black 20%, transparent 100%)',
-                WebkitMaskImage: 'linear-gradient(to bottom, black 20%, transparent 100%)'
-              }}
-            />
-          </div>
+  <img
+    src="/logo011.png"
+    alt="Datacore"
+    className="w-full max-w-none opacity-90 hover:opacity-30 transition-opacity object-cover"
+    style={{
+      maskImage: 'linear-gradient(to top, transparent 20%, black 100%)',
+      WebkitMaskImage: 'linear-gradient(to top, transparent 20%, black 100%)'
+    }}
+  />
+</div>
+
 
           {/* Divider */}
           <div className="w-full flex justify-center mb-6 md:mb-12 -translate-y-3 md:-translate-y-10 px-4">

@@ -106,7 +106,7 @@ export default function FeaturesGridSection() {
    const router = useRouter()
    
   const handleCardClick = () => {
-    router.push(`/individualsolutionnetscope`)
+    router.push(`/individualsolution`)
   }
 
   useEffect(() => {
@@ -130,7 +130,7 @@ export default function FeaturesGridSection() {
   }, [])
 
   return (
-    <section ref={containerRef} className="w-full bg-black py-12 md:py-20 px-4 md:px-8">
+    <section ref={containerRef} className="w-full bg-[#212121] py-12 md:py-20 px-4 md:px-8">
       <div className="max-w-7xl mx-auto mb-12">
         {/* Header */}
         <div className="mb-12 md:mb-20 flex flex-col items-center">
@@ -188,7 +188,7 @@ export default function FeaturesGridSection() {
        <div className="max-w-7xl mx-auto py-4">
         {/* Header */}
         <div className="mb-12 md:mb-20 flex flex-col items-center">
-          <h2 className="text-base md:text-lg font-medium text-white/80 tracking-wide mb-6 md:mb-8">Content For OrchestraFlow</h2>
+          <h2 className="text-base md:text-lg font-medium text-white/80 tracking-wide mb-6 md:mb-8">NetScope Vision</h2>
           <div className="w-full max-w-3xl h-px bg-gradient-to-r from-transparent via-white/30 to-transparent"></div>
         </div>
 

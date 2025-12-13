@@ -15,7 +15,7 @@ export default function IndustriesPage() {
       <Header />
       <SolutionHeroSection />
       <ShowcaseCardsSection />
-      <FeaturesGridSection />
+      {/* <FeaturesGridSection /> */}
       <Footer />
     </main>
   )

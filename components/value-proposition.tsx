@@ -27,10 +27,6 @@ export default function ValueProposition() {
               <p className="text-gray-400 text-base mb-8 max-w-md">
                 Gain complete oversight across IT, infra, network, OT, and security layers.
               </p>
-
-              <button className="border border-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-900 transition flex items-center gap-2">
-                learn more <span>›</span>
-              </button>
             </div>
 
             {/* RIGHT SIDE */}

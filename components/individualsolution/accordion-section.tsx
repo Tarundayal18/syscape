@@ -45,7 +45,7 @@ export default function AccordionCardsSection() {
   ]
 
   return (
-    <section ref={sectionRef} className="w-full bg-black py-16 md:py-24 px-4 md:px-8">
+    <section ref={sectionRef} className="w-full bg-[#212121] py-16 md:py-24 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
 
    

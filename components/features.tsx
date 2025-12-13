@@ -106,7 +106,7 @@
 
 export default function Features() {
   return (
-    <section className="w-full bg-black py-20 px-4 md:py-32">
+    <section className="w-full bg-[#212121] py-20 px-4 md:py-32">
       <div className="max-w-7xl mx-auto">
         <div className="
           grid grid-cols-1 lg:grid-cols-2 

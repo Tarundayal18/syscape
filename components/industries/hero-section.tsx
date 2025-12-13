@@ -102,14 +102,26 @@ export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20 overflow-hidden bg-gradient-to-b from-[#6ea7ee] to-black hero-fade">
       {/* Floating dots and particles */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-32 right-1/4 w-1 h-1 rounded-full bg-white opacity-60 animate-pulse" />
-        <div className="absolute top-40 right-1/3 w-1 h-1 rounded-full bg-cyan-300 opacity-40 animate-pulse delay-150" />
-        <div className="absolute top-1/3 right-20 w-1.5 h-1.5 rounded-full bg-cyan-400 opacity-50 animate-pulse delay-300" />
-        <div className="absolute top-1/2 right-1/4 w-1 h-1 rounded-full bg-blue-300 opacity-30 animate-pulse delay-500" />
-        <div className="absolute bottom-1/3 right-1/3 w-2 h-2 rounded-full bg-white opacity-40 animate-pulse delay-700" />
-        <div className="absolute top-1/4 left-1/3 w-1 h-1 rounded-full bg-cyan-300 opacity-30 animate-pulse delay-1000" />
-      </div>
+      
+      {/* Floating dots and particles */}
+<div className="absolute inset-0 overflow-hidden pointer-events-none">
+  {/* Right side bubbles */}
+  <div className="absolute top-32 right-1/4 w-1 h-1 rounded-full bg-white opacity-60 animate-pulse" />
+  <div className="absolute top-40 right-1/3 w-1 h-1 rounded-full bg-cyan-300 opacity-40 animate-pulse delay-150" />
+  <div className="absolute top-1/3 right-20 w-1.5 h-1.5 rounded-full bg-cyan-400 opacity-50 animate-pulse delay-300" />
+  <div className="absolute top-1/2 right-1/4 w-1 h-1 rounded-full bg-blue-300 opacity-30 animate-pulse delay-500" />
+  <div className="absolute bottom-1/3 right-1/3 w-2 h-2 rounded-full bg-white opacity-40 animate-pulse delay-700" />
+  <div className="absolute top-1/4 right-1/2 w-1 h-1 rounded-full bg-cyan-300 opacity-30 animate-pulse delay-1000" />
+
+  {/* Left side bubbles (NEW) */}
+  <div className="absolute top-32 left-1/4 w-1 h-1 rounded-full bg-white opacity-60 animate-pulse" />
+  <div className="absolute top-40 left-1/3 w-1 h-1 rounded-full bg-cyan-300 opacity-40 animate-pulse delay-150" />
+  <div className="absolute top-1/3 left-20 w-1.5 h-1.5 rounded-full bg-cyan-400 opacity-50 animate-pulse delay-300" />
+  <div className="absolute top-1/2 left-1/4 w-1 h-1 rounded-full bg-blue-300 opacity-30 animate-pulse delay-500" />
+  <div className="absolute bottom-1/3 left-1/3 w-2 h-2 rounded-full bg-white opacity-40 animate-pulse delay-700" />
+  <div className="absolute top-1/4 left-1/2 w-1 h-1 rounded-full bg-cyan-300 opacity-30 animate-pulse delay-1000" />
+</div>
+
 
       {/* Animated blur circles */}
       <div className="absolute inset-0 overflow-hidden">

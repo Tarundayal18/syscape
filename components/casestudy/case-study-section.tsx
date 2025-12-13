@@ -124,7 +124,7 @@ export default function CaseStudySection() {
   }
 
   return (
-    <section className="w-full bg-black py-20 px-4 md:px-8 lg:px-16">
+    <section className="w-full bg-[#212121] py-20 px-4 md:px-8 lg:px-16">
       <div className="mx-auto max-w-7xl">
         {/* Grid of 3 cards */}
         <div ref={sectionRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10">

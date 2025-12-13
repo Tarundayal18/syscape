@@ -105,7 +105,7 @@
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen w-full flex justify-center items-center bg-black px-4">
+    <div className="min-h-screen w-full flex justify-center items-center bg-[#212121] px-4">
       <div
         className="
         w-full max-w-3xl

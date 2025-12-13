@@ -67,7 +67,7 @@ export default function FeaturesCardsGridSection() {
   }, [])
 
   return (
-    <section className="w-full bg-black py-20 px-4 md:px-8 lg:px-16">
+    <section className="w-full bg-[#212121] py-20 px-4 md:px-8 lg:px-16">
       <div className="mx-auto max-w-7xl">
         {/* Centered heading and subtext */}
         <div className="mb-16 text-center">
