@@ -96,7 +96,7 @@
 //                         opacity="0.8"
 //                       />
 
-//                       {/* Right side of 3D shape */}
+//                       {/* Right side of 3D shapemore */}
 //                       <path d="M 100 60 Q 110 100 100 140 L 120 120 Q 130 80 120 40 Z" fill="#d1d5db" opacity="0.6" />
 
 //                       {/* Front curve */}
@@ -130,6 +130,7 @@
 
 import { useEffect, useRef, useState } from "react"
 import { ArrowRight } from "lucide-react"
+import { useRouter } from "next/navigation";
 
 interface ShowcaseCard {
   id: number
@@ -233,6 +234,14 @@ export default function UnifiedShowcaseSection() {
   const cardRefs = useRef<{ [key: number]: HTMLDivElement }>({})
   const featuresRef = useRef<HTMLDivElement>(null)
   const featureCardRefs = useRef<{ [key: number]: HTMLDivElement }>({})
+
+    const router = useRouter();
+
+  
+
+  const handleClick = () => {
+    router.push("/individualsolution");
+  };
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -418,7 +427,7 @@ export default function UnifiedShowcaseSection() {
 
             {/* Learn More Button */}
             <div className="flex justify-end mt-12 md:mt-16">
-              <button className="px-8 md:px-10 py-3 md:py-3 border border-white/40 text-white/80 hover:text-white hover:border-white/60 transition-all duration-300 rounded-lg font-medium text-sm md:text-base flex items-center gap-2 group">
+              <button onClick={handleClick} className="px-8 md:px-10 py-3 md:py-3 border border-white/40 text-white/80 hover:text-white hover:border-white/60 transition-all duration-300 rounded-lg font-medium text-sm md:text-base flex items-center gap-2 group">
                 learn more
                 <ArrowRight className="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 transition-transform" />
               </button>
