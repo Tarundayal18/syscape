@@ -200,8 +200,21 @@ import { useEffect, useState } from "react"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 
+
 export default function AboutPage() {
   const [visibleSections, setVisibleSections] = useState<Record<string, boolean>>({})
+  const [scrollY, setScrollY] = useState(0)
+
+   useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY)
+    }
+
+    window.addEventListener("scroll", handleScroll)
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+    }
+  }, [])
 
   useEffect(() => {
     const observer = new IntersectionObserver(
